@@ -1,0 +1,21 @@
+POKÉMON: AVENTURA
+
+Como executar:
+1. Instale o Python 3 se ainda não tiver.
+2. Abra o terminal do VS Code na pasta deste arquivo.
+3. Execute: python -m pip install pygame
+4. Depois execute: python pokemon_adventure.py
+
+Se o comando python não funcionar no Windows, tente:
+py -m pip install pygame
+py pokemon_adventure.py
+
+Controles:
+- Clique em um Pokémon para escolher o inicial.
+- ATACAR: causa dano e o inimigo pode revidar.
+- POKÉBOLA: tente capturar quando o inimigo estiver enfraquecido.
+- POÇÃO: recupera até 18 HP.
+- PRÓXIMO: encerra a batalha atual e encontra outro Pokémon.
+- ESC ou fechar a janela: sair.
+
+O projeto usa desenhos originais simples feitos com formas do Pygame; não precisa baixar imagens extras.
